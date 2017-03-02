@@ -1,0 +1,21 @@
+.content{
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		background:#ffd82b url(../img/ai_02.png) no-repeat left 30%;
+		background-size:100%;
+}
+.content figure{
+		position: absolute;
+		left:50%;
+		top:50%;
+		text-align:center;
+		font-size:0.40625rem;
+		margin-left:-0.625rem;
+}
+.content figure>img{
+		width:1.171875rem;
+		margin-bottom:0.15625rem;
+}

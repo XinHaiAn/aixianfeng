@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:'微软雅黑';
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+#content{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:1.5625rem;
+	overflow: auto;
+}
+footer{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	height:1.5625rem;
+	background:rgba(237,231,217,0.3);
+	display:flex;
+	justify-content:space-around;
+	overflow: hidden;
+}
+footer>a{
+	flex-grow:1;
+	display:block;
+	display:flex;
+	justify-content:space-around;
+	text-align: center;
+	font-size:0.3125rem;
+	color:#777;
+}
+footer>a figure{
+	text-align:center;
+}
+footer>a div{
+	width:100%;
+	height:0.625rem;
+	margin:0.1875rem 0;
+	background: url(../img/11.png) no-repeat center center;
+	background-size:0.625rem;
+}
+.animate{
+	background-size:0.625rem;;
+	animation: moves 0.3s alternate-reverse;
+	-webkit-animation: moves 0.3s alternate-reverse;
+}
+@keyframes moves{
+	0%{
+		background-size:0.625rem;;
+	}
+	25%{
+		background-size:0.3rem;
+	}
+	50%{
+		background-size:0.625rem;
+	}
+	75%{
+		background-size:0.7rem;
+	}
+	100%{
+		background-size:0.625rem;
+	}
+} 
+
+@-webkit-keyframes moves{
+	0%{
+		background-size:0.625rem;;
+	}
+	25%{
+		background-size:0.3rem;
+	}
+	50%{
+		background-size:0.625rem;
+	}
+	75%{
+		background-size:0.7rem;
+	}
+	100%{
+		background-size:0.625rem;
+	}
+} 
+.location{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index: 999;
+/*	display: none;*/
+}

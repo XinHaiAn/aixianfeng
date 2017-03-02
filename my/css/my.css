@@ -1,0 +1,146 @@
+.my_box{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:#efefef;
+}
+.message{
+	width:100%;
+	height:3.125rem;
+	background:#ffd600;
+}
+.message_in{
+	padding:0.625rem 0.5625rem 0 0.46875rem;
+	position:relative;
+}
+.message_in figure{
+	display: flex;
+}
+.message_in figure>img{
+	height:1.875rem;
+	margin-right:0.46875rem;
+}
+.message_in figcaption>p{
+	font-size:0.375rem;
+	color:#fff;
+	line-height:0.875rem;
+	font-weight:bold;
+}
+.message_in figcaption>div{
+	width:2.609375rem;
+	height:0.875rem;
+	background:url(../../public/img/lv.png) no-repeat left center;
+	background-size:2.609375rem;
+	text-indent:0.9375rem;
+	line-height:0.875rem;
+	font-size:0.3125rem;
+	color:#e64f1a;
+}
+.message_in>a{
+	position:absolute;
+	top:1.25rem;
+	right:0.625rem;
+	width:0.328125rem;
+	height:0.578125rem;
+}
+.message_in>a>img{
+	width:100%;
+}
+.collection{
+	width:100%;
+	height:1.09375rem;
+	background:rgba(243,200,0,0.9);
+	display: flex;
+	justify-content:space-between;
+	font-size:0.34375rem;
+	margin-bottom:0.3125rem;
+}
+.collection li{
+	flex-grow: 1;
+	padding:0.21875rem 0;
+}
+.collection li a{
+	color:#fff;
+	display: block;
+	height:0.640625rem;
+	line-height:0.640625rem;
+	text-indent:2.1875rem;
+}
+.collection li:first-child a{
+	border-right:1px solid #fff;
+	background:url(../../public/img/shoucang.png) no-repeat 1.25rem center;
+	background-size:0.5625rem;
+}
+.collection li:last-child a{
+	background:url(../../public/img/dianshou.png) no-repeat 1.25rem center;
+	background-size:0.5625rem;
+}
+.orders{
+	width:100%;
+	height:1.5625rem;
+	background: #fff;
+	font-size:0.40625rem;
+	display: flex;
+	line-height:1.5625rem;
+	justify-content:space-between;
+	border-bottom:2px solid #e0e0e0;
+}
+.orders .my_order{
+	margin-left:0.46875rem;
+	color:#333;
+}
+.orders .all_orders{
+	margin-right:0.46875rem;
+	color:#999;
+}
+.my_order_classify{
+	width:100%;
+	height:2.1875rem;
+	background:#fff;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom:0.3125rem;
+}
+.my_order_classify>a{
+	flex-grow: 1;
+	text-align:center;
+	display:block;
+	font-size:0.375rem;
+	color:#535353;
+}
+.my_order_classify figure>img{
+	height:0.76875rem;
+	margin:0.3875rem 0 0.14375rem 0;
+}
+.items ul:first-child{
+	width:100%;
+	height:3.125rem;
+	background:#fff;
+	border-bottom:1px solid #efefef;
+	display: flex;
+	justify-content: space-between;
+}
+.items ul:last-child{
+	width:100%;
+	height:3.125rem;
+	background:#fff;
+	border-bottom:1px solid #efefef;
+	display: flex;
+	justify-content: flex-start;
+}
+.items ul li{
+	width:25%;
+	text-align:center;
+}
+.items ul li a{
+	display:block;
+	color:#464646;
+	font-size:0.375rem;
+}
+.items figure>img{
+	height:0.9375rem;
+	margin:0.625rem 0 0.15625rem 0;
+	
+}

@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+	font-size:0.375rem;
+	height: 100%;
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+header{
+	width:100%;
+	height:1.40625rem;
+	background:#f9fafd;
+	border-bottom:2px solid #e0e0e0;
+	position:fixed;
+	top:0;
+	left:0;
+}
+header input{
+	font-size:0.40625rem;
+	width:6.1875rem;
+	height:0.8125rem;
+	line-height:0.8125rem;
+	border:2px solid #e0e0e0;
+	border-radius: 5px;
+	outline: none;
+	position:absolute;
+	top:0.25rem;
+	left:1.875rem;
+	text-indent:0.78125rem;
+	font-size:0.40625rem;
+	background: url(../../public/img/search.jpg) no-repeat 0.15625rem center;
+	background-size:0.40625rem;
+}
+header>a{
+	display: block;
+	position:absolute;
+	top:0.375rem;
+}
+header>a:nth-child(1){
+	width:0.75rem;
+	height:0.75rem;
+	left:0.40625rem;
+	background: url(../img/back_03.png) no-repeat center;
+	background-size:0.75rem;
+}
+header>a:nth-child(3){
+	right:0.234375rem;
+	font-size: 0.40625rem;
+	color:#777;
+}
+section{
+	position:absolute;
+	left:0;
+	right:0;
+	top:1.4375rem;
+	bottom:0;
+	background:#efefef;
+	overflow: hidden;
+	padding-bottom: 2rem;
+}
+.hot_search{
+	padding:0.84375rem 0 1.46875rem 0.46875rem;
+	font-size:0.375rem;
+}
+.hot_search h4{
+	color:#9a9a9a;
+}
+.hot_search ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.hot_search ul a{
+	display: block;
+	padding: 0.40625rem 0.46875rem;
+	border:2px solid #e4e4e4;
+	border-radius:0.9375rem;
+	background:#fff;
+	color:#000;
+	margin:0.3125rem 0.3125rem 0.3125rem 0;
+}
+.history{
+	padding-left: 0.46875rem;
+	font-size:0.40625rem;
+	color:#9a9a9a;
+	overflow: hidden;
+}
+.history a{
+	display: block;
+	float:left;
+	padding: 0.40625rem 0.46875rem;
+	border:2px solid #e4e4e4;
+	border-radius:0.9375rem;
+	background:#fff;
+	color:#000;
+	margin:0.3125rem 0.3125rem 0.3125rem 0;
+}
+.clear{
+	display: block;
+	width:6.65625rem;
+	height:1.25rem;
+	line-height:1.25rem;
+	text-align:center;
+	border:2px solid #e0e0e0;
+	border-radius:5px;
+	font-size: 0.40625rem;
+	color:#aaa;
+	margin:0.6rem 0 0 1.875rem;
+}

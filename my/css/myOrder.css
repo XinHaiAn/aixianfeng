@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+	font-size:0.375rem;
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+header{
+	width:100%;
+	height:1.40625rem;
+	background:#f9fafd;
+	border-bottom:2px solid #e0e0e0;
+}
+header h3{
+	font-size:0.40625rem;
+	line-height:1.40625rem;
+	text-align: center;
+}
+header>a{
+	display: block;
+	width:0.75rem;
+	height:0.75rem;
+	position:absolute;
+	top:0.375rem;
+}
+header>a:nth-child(1){
+	left:0.40625rem;
+	background: url(../img/back_03.png) no-repeat center;
+	background-size:0.75rem;
+}
+header>a:nth-child(3){
+	right:0.234375rem;
+	background: url(../img/shuaxin.png) no-repeat center;
+	background-size:0.75rem;
+}
+section{
+	position:absolute;
+	left:0;
+	right:0;
+	top:1.4375rem;
+	bottom:0;
+	background:#efefef;
+}
+.orders{
+	width:100%;
+	height:1.25rem;
+	background:#fff;
+	border-bottom:2px solid #e0e0e0;
+	display: flex;
+	justify-content: space-between;
+}
+.orders li{
+	flex-grow:1;
+	text-align:center;
+	font-size:0.375rem;
+	line-height:1.25rem;
+}
+.orders li a{
+	color:#404040;
+	padding:0.40625rem  0.1875rem 0.40625rem 0.1875rem;
+}
+.orders li a.active{
+	color:#ff3800;
+	border-bottom:0.0625rem solid #ff3800;
+}
+section>div{
+	position:absolute;
+	top:2.34375rem;
+	left:3.75rem;
+	font-size:0.40625rem;
+	color:#999;
+}
+section>div figure>img{
+	height:2.1875rem;
+	display:block;
+	margin-bottom:0.40625rem;
+}

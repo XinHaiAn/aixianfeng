@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"/>
+		<title>爱鲜蜂</title>
+		<link rel="stylesheet" type="text/css" href="css/seckkill.css"/>	
+		<script src="../public/lib/jquery-2.2.3.js"></script>
+		<script src="../public/lib/template.js"></script>
+		<script src="js/seckkill.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="../index.php#home"></a>
+			<h3>疯狂秒杀</h3>
+			<a href="javascript:location.reload;"></a>
+		</header>	
+		<section>
+			<div class="banner">
+				<img src="img/16_02.png"/>
+			</div>
+			<ul class="activity">
+				<li>
+					<p>10:00</p>
+					<div>已结束</div>
+					<img src="img/16_03.png"/>
+				</li>
+				<li>
+					<p>12:00</p>
+					<div>已结束</div>
+					<img src="img/16_03.png"/>
+				</li>
+				<li>
+					<p>15:00</p>
+					<div>已结束</div>
+					<img src="img/16_03.png"/>
+				</li>
+				<li>
+					<p>19:00</p>
+					<div>正在抢购</div>
+					<img src="img/16_06.png"/>
+				</li>
+			</ul>
+			<div class="end_time">
+				<p>距离本场结束</p>
+				<div>02:01:12</div>
+				<span>查看活动规则</span>
+			</div>
+			<ul class="detail"></ul>
+			<script type="text/template" id="tplKill">
+				<% for(var i in product){ %>
+					<li>
+						<a href="javascript:;">
+							<figure>
+								<div><img src="<%=product[i].img%>"/></div>
+								<figcaption>
+									<p><%=product[i].name%></p>
+									<p><%=product[i].specifics%></p>
+									<p>
+										<span class="now_price">￥<span><%=product[i].price%></span></span>
+										<span class="pre_price">/ 原价:<span><%=product[i].market_price%></span>元</span>
+									</p>
+									<div><%=product[i].btnText%></div>
+								</figcaption>
+							</figure>
+						</a>
+					</li>			
+			 <% } %>
+			</script>
+				
+		</section>
+		
+		
+		
+		<script src="../public/lib/flexible.js"></script>
+	</body>
+</html>
+

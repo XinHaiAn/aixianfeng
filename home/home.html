@@ -1,0 +1,259 @@
+<link rel="stylesheet" type="text/css" href="home/css/home.css"/>
+
+<div class="adress">
+	<a href="javascript:;" class="left" onclick="scanFn()">
+		<figure>
+			<img src="public/img/3_03.png" alt="" />
+			<figcaption>扫一扫</figcaption>
+		</figure>
+	</a>
+	<h1 onclick="mapFn()">济远路附近<span></span></h1>
+	<a href="home/home_search.html" class="right">
+		<figure>
+			<img src="public/img/10.png" alt="" />
+			<figcaption>搜索</figcaption>
+		</figure>
+	</a>
+</div>
+
+<section id="box">
+	<div class="swiper-container">
+		<div id="banner" class="swiper-wrapper">
+			
+		</div>
+	</div>
+	
+	<div class="classify"></div>
+	
+	<script type="text/template" id="tpl">
+		<%for(var k in menu){%>
+			<a href="javascript:;">
+				<figure>
+					<img src="<%=menu[k].activity.img%>" />
+					<figcaption><%=menu[k].activity.name%></figcaption>
+				</figure>
+			</a>
+		<%}%>	
+	</script>
+	
+	<div class="headline">
+		<a href="javascript:;"><img src="public/img/7_03.png"/></a>
+		<span>防霾</span>
+		<p>3M防霾口罩22.8元/3只&nbsp;1小时闪送</p>
+	</div>
+	
+	<div class="goods">
+		<a href="javascript:;" class="first">
+			<figure>
+				<figcaption>
+					<div>骑士酸牛奶</div>
+					<p>尝鲜价6.8元</p>
+				</figcaption>
+				<img src="public/img/4_08.png" alt="" />
+			</figure>
+		</a>
+		
+		<a href="javascript:;">
+			<figure>
+				<figcaption>
+					<div>骑士酸牛奶</div>
+					<p>尝鲜价6.8元</p>
+				</figcaption>
+				<img src="public/img/4_05.png" alt="" />
+			</figure>
+		</a>
+		
+		<a href="javascript:;" class="third">
+			<figure>
+				<figcaption>
+					<div>骑士酸牛奶</div>
+					<p>尝鲜价6.8元</p>
+				</figcaption>
+				<img src="public/img/4_03.png" alt="" />
+			</figure>
+		</a>
+	</div>
+	
+	<div class="discount">
+		<a href="javascript:;">
+			<figure>
+				<figcaption>
+					<div>天天特价</div>
+					<p>农夫山泉0.9元</p>
+				</figcaption>
+				<img src="public/img/5_06.png" alt="" />
+			</figure>
+		</a>
+		
+		<a href="javascript:;">
+			<figure>
+				<figcaption>
+					<div>天天特价</div>
+					<p>农夫山泉0.9元</p>
+				</figcaption>
+				<img src="public/img/5_03.png" alt="" />
+			</figure>
+		</a>
+		
+		<a href="javascript:;">
+			<figure>
+				<figcaption>
+					<div>天天特价</div>
+					<p>农夫山泉0.9元</p>
+				</figcaption>
+				<img src="public/img/5_11.png" alt="" />
+			</figure>
+		</a>
+		
+		<a href="javascript:;">
+			<figure>
+				<figcaption>
+					<div>天天特价</div>
+					<p>农夫山泉0.9元</p>
+				</figcaption>
+				<img src="public/img/5_13.png" alt="" />
+			</figure>
+		</a>
+	</div>
+	<div class="fruit">
+		<div class="fruit_top">
+			<div class="fruit_top_intr">
+				<h3><span></span>优选水果</h3>
+				<p>更多 ></p>
+			</div>
+			<div class="fruit_top_banner">
+				<img src="public/img/6_03.png"/>
+			</div>
+		</div>
+		<div class="fruit_main">
+			<div href="javascript:;">
+				<figure>
+					<img src="public/img/6_06.png" class="fruit_name" />
+					<figcaption>
+						<p>蜂觅·15度蜜梨</p>
+						<p>
+							<span class="selection"><img src="public/img/6_17.png" /></span>
+							<span class="gift"><img src="public/img/6_19.png" /></span>
+						</p>
+						<div class="standard">400-500g/盒</div>
+						<div class="price">
+							<span class="now_price">￥14.6</span>
+							<span class="pre_price">￥16</span>
+						</div>
+						<a href="javascript:;" class="add_icon"><img src="public/img/2_06.png"/></a>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div href="javascript:;">
+				<figure>
+					<img src="public/img/6_09.png" class="fruit_name" />
+					<figcaption>
+						<p>蜂觅·15度蜜梨</p>
+						<p>
+							<span class="selection"><img src="public/img/6_17.png" /></span>
+							<span class="gift"><img src="public/img/6_19.png" /></span>
+						</p>
+						<div class="standard">400-500g/盒</div>
+						<div class="price">
+							<span class="now_price">￥14.6</span>
+							<span class="pre_price">￥16</span>
+						</div>
+						<a href="javascript:;" class="add_icon"><img src="public/img/2_06.png"/></a>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div href="javascript:;">
+				<figure>
+					<img src="public/img/6_11.png" class="fruit_name" />
+					<figcaption>
+						<p>蜂觅·15度蜜梨</p>
+						<p>
+							<span class="selection"><img src="public/img/6_17.png" /></span>
+							<span class="gift"><img src="public/img/6_19.png" /></span>
+						</p>
+						<div class="standard">400-500g/盒</div>
+						<div class="price">
+							<span class="now_price">￥14.6</span>
+							<span class="pre_price">￥16</span>
+						</div>
+						<a href="javascript:;" class="add_icon"><img src="public/img/2_06.png"/></a>
+					</figcaption>
+				</figure>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="fruit bread">
+		<div class="fruit_top">
+			<div class="fruit_top_intr milk">
+				<h3><span></span>牛奶面包</h3>
+				<p>更多 ></p>
+			</div>
+			<div class="fruit_top_banner">
+				<img src="public/img/6_03.png"/>
+			</div>
+		</div>
+		<div class="fruit_main">
+			<div href="javascript:;">
+				<figure>
+					<img src="public/img/6_06.png" class="fruit_name" />
+					<figcaption>
+						<p>蜂觅·15度蜜梨</p>
+						<p>
+							<span class="selection"><img src="public/img/6_17.png" /></span>
+							<span class="gift"><img src="public/img/6_19.png" /></span>
+						</p>
+						<div class="standard">400-500g/盒</div>
+						<div class="price">
+							<span class="now_price">￥14.6</span>
+							<span class="pre_price">￥16</span>
+						</div>
+						<a href="javascript:;" class="add_icon"><img src="public/img/2_06.png"/></a>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div href="javascript:;">
+				<figure>
+					<img src="public/img/6_09.png" class="fruit_name" />
+					<figcaption>
+						<p>蜂觅·15度蜜梨</p>
+						<p>
+							<span class="selection"><img src="public/img/6_17.png" /></span>
+							<span class="gift"><img src="public/img/6_19.png" /></span>
+						</p>
+						<div class="standard">400-500g/盒</div>
+						<div class="price">
+							<span class="now_price">￥14.6</span>
+							<span class="pre_price">￥16</span>
+						</div>
+						<a href="javascript:;" class="add_icon"><img src="public/img/2_06.png"/></a>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div href="javascript:;">
+				<figure>
+					<img src="public/img/6_11.png" class="fruit_name" />
+					<figcaption>
+						<p>蜂觅·15度蜜梨</p>
+						<p>
+							<span class="selection"><img src="public/img/6_17.png" /></span>
+							<span class="gift"><img src="public/img/6_19.png" /></span>
+						</p>
+						<div class="standard">400-500g/盒</div>
+						<div class="price">
+							<span class="now_price">￥14.6</span>
+							<span class="pre_price">￥16</span>
+						</div>
+						<a href="javascript:;" class="add_icon"><img src="public/img/2_06.png"/></a>
+					</figcaption>
+				</figure>
+			</div>
+			
+		</div>
+	</div>
+</section>

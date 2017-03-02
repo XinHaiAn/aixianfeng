@@ -1,0 +1,73 @@
+<link rel="stylesheet" type="text/css" href="send/css/send.css"/>
+
+<div class="adress">
+	<h1>济远路附近<span></span></h1>
+	<a href="send/send_search.html" class="right">
+		<figure>
+			<img src="public/img/10.png" alt="" />
+			<figcaption>搜索</figcaption>
+		</figure>
+	</a>
+</div>
+
+<div class="send_left">
+	<ul>
+		<li class="active"><span></span><a href="javascript:;">热销榜</a> </li>
+		<li><span></span><a href="javascript:;">天天特价</a> </li>
+		<li><span></span><a href="javascript:;">优选水果</a> </li>
+		<li><span></span><a href="javascript:;">牛奶面包</a> </li>
+		<li><span></span><a href="javascript:;">卤味熟食</a> </li>
+		<li><span></span><a href="javascript:;">饮料酒水</a> </li>
+		<li><span></span><a href="javascript:;">休闲零食</a> </li>
+		<li><span></span><a href="javascript:;">冰激凌</a> </li>
+		<li><span></span><a href="javascript:;">方便素食</a> </li>
+		<li><span></span><a href="javascript:;">生活用品</a> </li>
+		<li><a href="javascript:;">代购香烟</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+		<li><a href="javascript:;">热销榜</a> </li>
+	</ul>
+</div>
+
+<div class="send_right">
+	<div class="send_right_head">
+		<a href="javascript:;">全部分类</a>
+		<a href="javascript:;">综合排序</a>
+	</div>
+	
+	<div class="send_right_body">
+		<ul></ul>
+	<script type="text/template" id="tpl">
+		<% for(var i in data){ %>
+			<li>
+				<figure>
+					<div><img data-src="<%= data[i].img %>"/></div>
+					<figcaption>
+						<p><%= data[i].name %></p>
+						<p>
+							<span class="selection"><img src="public/img/6_17.png" /></span>
+							<span class="gift"><img src="public/img/6_19.png" /></span>
+						</p>
+						<div class="standard"><%= data[i].specifics %></div>
+						<div class="price">
+							<span class="now_price">￥<%= data[i].price %></span>
+							<span class="pre_price">￥<%= data[i].market_price %></span>
+						</div>
+						<p class="numbers">
+							<a href="javascript:;" class="dec_icon"></a>
+							<span class="num">0</span>
+							<a href="javascript:;" class="add_icon"></a>
+						</p>
+					</figcaption>
+				</figure>
+			</li>
+		<% } %>			
+	</script>
+	</div>
+</div>
